@@ -1,1 +1,5 @@
-
+homework=12
+hours_spent=1.5
+Course_name="Python"
+timeForOneTask=(homework*hours_spent)
+Print(Курс: Course_name, всего задач:homework, затрачено часов: hours_spent, среднее время выполнения timeForOneTask часа.)
