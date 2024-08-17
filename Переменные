@@ -1,5 +1,5 @@
-homework=12
-hours_spent=1.5
-Course_name="Python"
-timeForOneTask=(homework*hours_spent)
-Print(Курс: Course_name, всего задач:homework, затрачено часов: hours_spent, среднее время выполнения timeForOneTask часа.)
+homework = 12
+time_spent = 1.5
+course_name = "Python"
+timeForOneTask = (time_spent/homework)
+print('Курс:',course_name,', всего задач:',homework,', затрачено часов:',time_spent,', среднее время выполнения',timeForOneTask,'часа.')
