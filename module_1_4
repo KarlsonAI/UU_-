@@ -1,3 +1,5 @@
+my_string = input("Ввведите произвольный текст: ")
+print("Вывод:",my_string)
 my_string = input("Введите текст в верхнем регистре: ")
 print("Вывод:",my_string .lower())
 my_string = input("Введите текст в нижним регистре: ")
