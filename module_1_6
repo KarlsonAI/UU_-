@@ -1,0 +1,17 @@
+my_dict = {'Sasha': 2000, 'Tolya': 1995, 'Vadim': 2004, 'Leonid': 1984}
+print(my_dict)
+print(my_dict['Vadim'])
+my_dict['Timur'] = 2002
+print(my_dict['Timur'])
+my_dict['Vladimir'] = 1992
+my_dict['Alexandr'] = 1980
+print(my_dict.pop('Leonid'))
+print(my_dict)
+my_set = {34, 34, True, 'Viktoriya', 1, 6, 6, 32, 32, 32, 5, 5, 5}
+print(my_set)
+my_set = set(my_set)
+my_set.add(9)
+my_set.add(4)
+print(my_set)
+my_set.discard(True)
+print(my_set)
