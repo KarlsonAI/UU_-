@@ -1,0 +1,16 @@
+grades = [[5, 3, 3, 5, 4], [2, 2, 2, 3], [4, 5, 5, 2], [4, 4, 3], [5, 5, 5, 4, 5]]
+students = {'Johnny', 'Bilbo', 'Steve', 'Khendrik', 'Aaron'}
+list_sort = sorted(students)
+print(list_sort)
+sb_0 = sum(grades[0]) / len(grades[0])
+sb_1 = sum(grades[1]) / len(grades[1])
+sb_2 = sum(grades[2]) / len(grades[2])
+sb_3 = sum(grades[3]) / len(grades[3])
+sb_4 = sum(grades[4]) / len(grades[4])
+list_all = {}
+list_all[list_sort[0]] = sb_0
+list_all[list_sort[1]] = sb_1
+list_all[list_sort[2]] = sb_2
+list_all[list_sort[3]] = sb_3
+list_all[list_sort[4]] = sb_4
+print(list_all)
