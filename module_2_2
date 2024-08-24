@@ -1,0 +1,16 @@
+first = int(input("Введите число: "))
+second = int(input("Введите число: "))
+third = int(input("Введите число: "))
+if first == second == third:
+    print(3)
+elif first != second != third !=first:
+    print(0)
+else:           # или вместо "else" прописать условия под # ниже
+    print(2)
+
+# elif (first == second or first  == third):
+#     print(2)
+# elif (second == first or second == third):
+#     print(2)
+# elif (third == first or third == second):
+#     print(2)
