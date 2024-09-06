@@ -1,0 +1,16 @@
+from random import randint
+
+
+def create_password(val):
+    #val = randint(3, 20)
+    print(f"Value is {val}")
+    password = ""
+    for i in range(1, val):
+        for j in range(i + 1, val):
+            if val % (i + j) ==0:
+                password += str(i) + str(j)
+
+    return password
+val = 11
+password = create_password(val)
+print(f"password: {password}")
